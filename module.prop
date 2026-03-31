@@ -1,0 +1,6 @@
+id=miracast-enabler
+name=Miracast Enabler
+version=v1.0.0
+versionCode=1
+author=snake
+description=Enables Miracast (Wi-Fi Display) on Pixel phones and other devices where it is disabled by default

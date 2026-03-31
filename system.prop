@@ -1,0 +1,11 @@
+# Core Miracast / Wi-Fi Display
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+persist.sys.wfd.nohdcp=1
+wlan.wfd.hdcp=disable
+
+# Tensor / Pixel: GPU composition for virtual displays
+debug.sf.enable_hwc_vds=0
+
+# Wi-Fi Direct concurrency
+wifi.direct.interface=p2p-dev-wlan0

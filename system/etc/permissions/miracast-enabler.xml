@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Declare Wi-Fi Display hardware/software features -->
+<permissions>
+    <feature name="android.hardware.wifi.direct" />
+    <feature name="android.software.wifi_display" />
+</permissions>

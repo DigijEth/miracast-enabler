@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Enable Wi-Fi Display (Miracast) in the framework -->
+    <bool name="config_enableWifiDisplay">true</bool>
+
+    <!-- Allow protected (DRM/HDCP) content over wireless display -->
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+</resources>
