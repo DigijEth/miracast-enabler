@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miracast Enabler</string>
+    <string name="tile_label">Miracast</string>
+    <string name="tile_scanning">Scanning…</string>
+    <string name="tile_connected">Connected</string>
+    <string name="tile_disconnected">Disconnected</string>
+
+    <!-- Settings -->
+    <string name="pref_category_general">General</string>
+    <string name="pref_module_enabled">Module enabled</string>
+    <string name="pref_module_enabled_summary">Enable Miracast Wi-Fi Display hooks</string>
+    <string name="pref_resolution">Resolution</string>
+    <string name="pref_resolution_summary">Maximum output resolution</string>
+
+    <string name="pref_category_security">Security</string>
+    <string name="pref_hdcp">HDCP</string>
+    <string name="pref_hdcp_summary">Enable HDCP content protection (disable for better compatibility)</string>
+
+    <string name="pref_category_display">Display Source</string>
+    <string name="pref_display_source">Display source</string>
+    <string name="pref_display_source_summary">Select which display to mirror (foldable devices)</string>
+
+    <string name="pref_category_advanced">Advanced</string>
+    <string name="pref_gpu_composition">Force GPU composition</string>
+    <string name="pref_gpu_composition_summary">Fix black/green screen on Tensor devices</string>
+    <string name="pref_scc">Single-channel concurrency</string>
+    <string name="pref_scc_summary">Prevent Wi-Fi latency spikes during Miracast</string>
+    <string name="pref_go_intent">P2P GO intent</string>
+    <string name="pref_go_intent_summary">Wi-Fi Direct Group Owner intent (0-15, higher = prefer GO)</string>
+
+    <string name="pref_category_status">Status</string>
+    <string name="pref_status_hooks">Hook status</string>
+    <string name="pref_status_device">Device info</string>
+
+    <string-array name="resolution_entries">
+        <item>Auto</item>
+        <item>1920x1080 60fps</item>
+        <item>1920x1080 30fps</item>
+        <item>1280x720 60fps</item>
+        <item>1280x720 30fps</item>
+    </string-array>
+    <string-array name="resolution_values">
+        <item>0</item>
+        <item>5</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="display_source_entries">
+        <item>Inner display</item>
+        <item>Outer display</item>
+    </string-array>
+    <string-array name="display_source_values">
+        <item>0</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="xposed_scope">
+        <item>android</item>
+        <item>com.android.systemui</item>
+        <item>com.android.settings</item>
+    </string-array>
+</resources>

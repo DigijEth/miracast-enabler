@@ -1,3 +1,13 @@
 .claude/
 aapt2-build/
-tools/aapt-cmake-build/
+tools/
+*.iml
+.idea/
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore

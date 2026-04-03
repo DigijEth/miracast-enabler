@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/pref_category_general">
+        <SwitchPreference
+            android:key="module_enabled"
+            android:title="@string/pref_module_enabled"
+            android:summary="@string/pref_module_enabled_summary"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="resolution"
+            android:title="@string/pref_resolution"
+            android:summary="@string/pref_resolution_summary"
+            android:entries="@array/resolution_entries"
+            android:entryValues="@array/resolution_values"
+            android:defaultValue="7" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_security">
+        <SwitchPreference
+            android:key="hdcp_enabled"
+            android:title="@string/pref_hdcp"
+            android:summary="@string/pref_hdcp_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="display_category"
+        android:title="@string/pref_category_display">
+        <ListPreference
+            android:key="display_source"
+            android:title="@string/pref_display_source"
+            android:summary="@string/pref_display_source_summary"
+            android:entries="@array/display_source_entries"
+            android:entryValues="@array/display_source_values"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_advanced">
+        <SwitchPreference
+            android:key="gpu_composition"
+            android:title="@string/pref_gpu_composition"
+            android:summary="@string/pref_gpu_composition_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="single_channel"
+            android:title="@string/pref_scc"
+            android:summary="@string/pref_scc_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_status">
+        <Preference
+            android:key="status_hooks"
+            android:title="@string/pref_status_hooks"
+            android:selectable="false" />
+        <Preference
+            android:key="status_device"
+            android:title="@string/pref_status_device"
+            android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
