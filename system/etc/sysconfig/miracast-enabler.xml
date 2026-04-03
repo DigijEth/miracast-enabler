@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Enable Wi-Fi Display (Miracast) feature -->
-<config>
-    <feature name="android.hardware.wifi.direct" />
-    <feature name="android.software.wifi_display" />
-</config>
